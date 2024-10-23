@@ -28,7 +28,7 @@ npm install -g @bytecodealliance/componentize-js @bytecodealliance/jco
 
 The first step in building a WebAssembly component is creating or downloading the interface that defines what your component can do. This usually means creating or downloading the [WebAssembly Interface Types ("WIT")][wit] world you would like to "target" with your component.
 
-The [`adder` tutorial example](https://github.com/bytecodealliance/component-docs/tree/main/component-model/examples/tutorial/adder) will use the [`component` world](https://github.com/bytecodealliance/component-docs/tree/main/component-model/examples/tutorial/wit/adder/world.wit) which exports an `add` interface:
+The [example `add` component in `jco`](https://github.com/bytecodealliance/jco/tree/main/examples/components/add) showcases a component that adds two numbers together. The WIT interface looks like the following:
 
 ```wit
 package docs:adder@0.1.0;
