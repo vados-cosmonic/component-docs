@@ -17,7 +17,7 @@ Next, create or download the WIT world you would like to target.
 For this example we will use an [`adder` world][adder-wit] with an `add` function.
 
 ```wit
-{{#include ../../examples/tutorial/wit/adder/world.wit}}
+{{#include ../../../examples/tutorial/wit/adder/world.wit}}
 ```
 
 Create a new directory for your project and create a subdirectory in it called `wit`.
@@ -58,7 +58,7 @@ To implement the `adder` world (in particular the `add` interface that is export
 put the following code in a file called `app.py`:
 
 ```py
-{{#include ../../examples/tutorial/python/app.py}}
+{{#include ../../../examples/tutorial/python/app.py}}
 ```
 
 We now can compile our application to a WebAssembly component using the `componentize` subcommand:
@@ -77,12 +77,12 @@ Component built successfully
 
 The following section requires you to have [a Rust toolchain][rust] installed.
 
-{{#include example-host-part1.md}}
+{{#include ../example-host-part1.md}}
 
 A successful run should show the following output
 (of course, the paths to your example host and adder component will vary):
 
-{{#include example-host-part2.md}}
+{{#include ../example-host-part2.md}}
 
 [rust]: https://www.rust-lang.org/learn/get-started
 
@@ -97,7 +97,7 @@ This section walks through using python native tooling to call the [pre-built `a
 > To use `wasmtime-py` to run a component built with `componentize-py`,
 > the `--stub-wasi` option must have been passed to `componentize-py`
 > when the component was built.
-> This is because `wasmtime-py` does not yet support [resources](../design/wit.md#resources),
+> This is because `wasmtime-py` does not yet support [resources](../../design/wit.md#resources),
 > and `componentize-py` by default generates components which use resources from the `wasi:cli` world.
 > See [this example](https://github.com/bytecodealliance/componentize-py/tree/main/examples/sandbox)
 > of using the `--stub-wasi` option to generate a `wasmtime-py`-compatible component.
@@ -126,7 +126,7 @@ We can now write a Python program that calls `add`.
 Copy/paste the following code into a file called `host.py`:
 
 ```py
-{{#include ../../examples/tutorial/python/host.py}}
+{{#include ../../../examples/tutorial/python/host.py}}
 ```
 
 Run the Python host program:
