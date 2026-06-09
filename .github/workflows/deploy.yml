@@ -1,26 +1,25 @@
 name: Deploy mdBook site to Pages
 
 on:
-  pull_request:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
-  # workflow_dispatch:
-  #   inputs:
-  #     ref:
-  #       required: false
-  #       type: string
-  #       default: main
-  #       description: |
-  #         The git ref to deploy (ex. 'main', 'branch', '<commit sha>')
+  workflow_dispatch:
+    inputs:
+      ref:
+        required: false
+        type: string
+        default: main
+        description: |
+          The git ref to deploy (ex. 'main', 'branch', '<commit sha>')
 
-  #     publish-domain:
-  #       required: false
-  #       type: string
-  #       default: "component-model.bytecodealliance.org"
-  #       description: |
-  #         The domain to which to publish (ex. 'component-model.bytecodealliance.org')
+      publish-domain:
+        required: false
+        type: string
+        default: "component-model.bytecodealliance.org"
+        description: |
+          The domain to which to publish (ex. 'component-model.bytecodealliance.org')
 
 permissions: {}
 
