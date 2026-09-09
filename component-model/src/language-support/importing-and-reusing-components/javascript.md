@@ -35,7 +35,7 @@ which contains the `reverse-and-uppercase` function (in JavaScript, `reverseAndU
 > Functionality is imported via the `interface`, *not* the `world`.
 > `world`s can be included/used, but the syntax is slightly different for that.
 
-The JavaScript to make this work ([`string-reverse-upper.mjs` in `jco/examples`][string-reverse-upper-mjs])
+The JavaScript to make this work ([`string-reverse-upper.js` in `jco/examples`][string-reverse-upper-js])
 looks like this:
 
 ```js
@@ -165,7 +165,7 @@ reverseAndUppercase('!dlroW olleH') = HELLO WORLD!
 
 [wac]: https://github.com/bytecodealliance/wac
 [jco-examples-string-reverse-upper]: https://github.com/bytecodealliance/jco/tree/main/examples/components/string-reverse-upper
-[string-reverse-upper-mjs]: https://github.com/bytecodealliance/jco/blob/main/examples/components/string-reverse-upper/string-reverse-upper.mjs
+[string-reverse-upper-js]: https://github.com/bytecodealliance/jco/blob/main/examples/components/string-reverse-upper/string-reverse-upper.js
 
 ## Using `jco transpile` to run components from Javsacript
 

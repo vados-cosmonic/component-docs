@@ -4,7 +4,7 @@
 
 This page has content for both **WASI 0.2** and **WASI 0.3**. Use the tabs below to switch between versions where they differ.
 
-> **WASI 0.3 toolchain note.** Rust's [`wasm32-wasip3` target](https://doc.rust-lang.org/nightly/rustc/platform-support/wasm32-wasip3.html) is currently Tier 3 with no prebuilt artifacts; building for it requires constructing the standard library from source. The 0.3 example on this page therefore uses the library/reactor pattern targeting `wasm32-wasip2`, where [`wit-bindgen`](https://crates.io/crates/wit-bindgen)'s `async` feature handles the 0.3 binding generation. There is no Rust-idiomatic 0.3 path for the `fn main()` command-component pattern yet.
+> **WASI 0.3 toolchain note.** Rust's [`wasm32-wasip3` target](https://doc.rust-lang.org/nightly/rustc/platform-support/wasm32-wasip3.html) is currently Tier 3 with no prebuilt artifacts; building for it requires constructing the standard library from source. The 0.3 example on this page therefore uses the library/reactor pattern targeting `wasm32-wasip2`, where [`wit-bindgen`](https://docs.rs/wit-bindgen)'s `async` feature handles the 0.3 binding generation. There is no Rust-idiomatic 0.3 path for the `fn main()` command-component pattern yet.
 
 </div>
 

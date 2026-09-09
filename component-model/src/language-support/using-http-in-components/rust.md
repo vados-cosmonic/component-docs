@@ -32,7 +32,7 @@ Add [`wstd`][wstd], a Rust async standard library for Wasm components as a depen
 ```console
 cargo add wstd
 ```
-`wstd` provides idiomatic Rust bindings for WASI standard interfaces [(`wasi:http`)](https://github.com/WebAssembly/WASI/tree/main/proposals/http) to increase ease-of-use for Rust WebAssembly components. Since we are using `wstd`, we will not need to add WIT files or depend on [`wit-bindgen`](https://crates.io/crates/wit-bindgen) directly.
+`wstd` provides idiomatic Rust bindings for WASI standard interfaces [(`wasi:http`)](https://github.com/WebAssembly/WASI/tree/main/proposals/http) to increase ease-of-use for Rust WebAssembly components. Since we are using `wstd`, we will not need to add WIT files or depend on [`wit-bindgen`](https://docs.rs/wit-bindgen) directly.
 
 
 > [!NOTE]

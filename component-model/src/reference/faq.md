@@ -24,7 +24,7 @@ WebAssembly components can be expressed via both a binary and textual format (["
 [wat]: https://webassembly.github.io/spec/core/text/index.html
 [cabi]: https://github.com/WebAssembly/component-model/blob/main/design/mvp/CanonicalABI.md
 [cm-binary-format]: https://github.com/WebAssembly/component-model/blob/main/design/mvp/Binary.md
-[wasi-p1]: https://github.com/WebAssembly/WASI/blob/main/legacy/preview1/witx/wasi_snapshot_preview1.witx
+[wasi-p1]: https://github.com/WebAssembly/WASI/blob/wasi-0.1/preview1/witx/wasi_snapshot_preview1.witx
 [wasm-core-spec]: https://webassembly.github.io/spec/core/
 
 ## Q: How can I tell if a WebAssembly binary is a component or a module?

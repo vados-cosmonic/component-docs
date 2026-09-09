@@ -102,7 +102,7 @@ $ cargo run --release -- 1 2 ../../../go-adder/main.wasm
 
 With this, we have successfully built and run a basic WebAssembly component with Go 🎉
 
-[crates-wasmtime]: https://crates.io/crates/wasmtime
+[crates-wasmtime]: https://docs.rs/wasmtime
 [repo-component-docs]: https://github.com/bytecodealliance/component-docs
 [docs-adder]: https://github.com/bytecodealliance/component-docs/tree/main/component-model/examples/tutorial/wit/adder/world.wit
 [componentize-go]: https://github.com/bytecodealliance/componentize-go

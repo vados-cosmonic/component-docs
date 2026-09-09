@@ -10,7 +10,7 @@ This page has content for both **WASI 0.2** and **WASI 0.3**. Use the tabs below
 {{#tab name="WASI 0.2" }}
 [Wasmtime](https://github.com/bytecodealliance/wasmtime/) is the reference implementation of the Component Model.
 It supports running components that implement the [`wasi:cli/command` world](https://github.com/WebAssembly/WASI/blob/main/proposals/cli/wit/command.wit)
-and serving components that implement the [`wasi:http/proxy` world](https://github.com/WebAssembly/WASI/blob/main/proposals/http/wit/proxy.wit).
+and serving components that implement the [`wasi:http/proxy` world](https://github.com/WebAssembly/WASI/blob/wasi-0.2/proposals/http/wit/proxy.wit).
 Wasmtime can also invoke functions exported from a component.
 {{#endtab }}
 {{#tab name="WASI 0.3" }}
@@ -52,7 +52,7 @@ See the [Wasmtime guide](https://docs.wasmtime.dev/) for information on granting
 
 {{#tabs global="wasi-version" }}
 {{#tab name="WASI 0.2" }}
-You can execute components that implement the [HTTP proxy world](https://github.com/WebAssembly/WASI/blob/main/proposals/http/wit/proxy.wit) with the `wasmtime serve` subcommand.
+You can execute components that implement the [HTTP proxy world](https://github.com/WebAssembly/WASI/blob/wasi-0.2/proposals/http/wit/proxy.wit) with the `wasmtime serve` subcommand.
 [The Wasmtime CLI](https://github.com/bytecodealliance/wasmtime) supports serving these components as of `v18.0.0`.
 
 To run a HTTP component with Wasmtime, execute:
