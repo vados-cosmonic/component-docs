@@ -70,6 +70,7 @@ runs:
       id: book-build
       env:
         PUBLISH_DOMAIN: ${{ inputs.publish-domain }}
+        MDBOOK_OUTPUT__LINKCHECK2__FOLLOW_WEB_LINKS: 'true'
       run: |
         just build-book
         echo "output-path=$(just print-book-dir)" >> $GITHUB_OUTPUT
